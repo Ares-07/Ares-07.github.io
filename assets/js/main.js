@@ -50,7 +50,7 @@ const sr = ScrollReveal({
 //     reset: true
 });
 
-sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
+sr.reveal('.home__data, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text,.dwnd__cv,.timeline__content,.portfolio__content,. .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.contact-info,.contact__content, .work__img, .contact__input',{interval: 200}); 
