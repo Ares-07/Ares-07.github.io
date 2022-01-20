@@ -988,7 +988,7 @@ a:link, a:visited {
 
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .home {
     row-gap: 2rem;
   }
@@ -1026,6 +1026,14 @@ a:link, a:visited {
     margin: 0.25rem 0;
   }
 
+}
+@media screen and (min-width: 400px) {
+
+.wrapper{
+    font-size: 30px;
+    
+    height: 43px;
+}
 }
 
 @media screen and (min-width: 576px) {
@@ -1069,8 +1077,9 @@ a:link, a:visited {
     justify-items: center;
   }
   .wrapper {
-    width: 500px;
-    height: 15px;
+    font-size: 30px;
+    
+    height: 43px;
   }
 }
 
@@ -1131,8 +1140,9 @@ a:link, a:visited {
     column-gap: 2rem;
   }
   .wrapper {
-    width: 500px;
-    height: 80px;
+    font-size: 30px;
+    
+    height: 43px;
   }
 }
 
@@ -1148,7 +1158,8 @@ a:link, a:visited {
     width: 450px;
   }
   .wrapper {
-    width: 500px;
-    height: 35px;
+    font-size: 47px;
+    
+    height: 80px;
   }
 }
